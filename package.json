@@ -12,8 +12,11 @@
   "dependencies": {
     "@hello-pangea/dnd": "^18.0.1",
     "@primer/css": "^21.5.1",
+    "@reduxjs/toolkit": "^2.6.0",
+    "antd": "^5.24.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

@@ -66,3 +66,60 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.kanban-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-container button {
+  flex: 0 0 150px;
+}
+
+.repo-info {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.kanban-column {
+  flex: 1;
+  min-height: 300px;
+  background: #f6f8fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.kanban-card {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.kanban-column h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
