@@ -4,12 +4,16 @@ import ReactDOM from "react-dom/client";
 // import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-// import { Provider } from 'react-redux';
-// import store from './store/store';
+import { Provider } from 'react-redux';
+import store from './store/store';
 // import 'antd/dist/antd.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
 // ReactDOM.render(
 //   <Provider store={store}>
 //     <App />
