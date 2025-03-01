@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addTask } from "../store/tasksSlice";
+import { addTask } from "../store/tasksSlice.js";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 import { v4 as uuidv4 } from "uuid"; // Генератор унікальних ID
 import { Button, Input, Select } from "antd"; // Використовуємо Ant Design

@@ -1,6 +1,6 @@
 import React from "react";
-import KanbanBoard from "./components/KanbanBoard";
-import "../src/App";
+import KanbanBoard from "./components/KanbanBoard.jsx";
+// import "../src/App";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
